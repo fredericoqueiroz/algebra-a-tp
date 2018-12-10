@@ -3,6 +3,7 @@
 
 
 int main(){
+
     /*  Teste da funcao inverso_modular
     mpz_t a, n, r, r1;
     mpz_init(a);
@@ -31,5 +32,25 @@ int main(){
     mpz_clear(r);
     mpz_clear(r1);
     */
+
+    /* Teste da funcao exp_binaria
+    mpz_t r, b, e, n;
+    mpz_init(r);
+    mpz_init(b);
+    mpz_init(e);
+    mpz_init(n);
+    
+    gmp_scanf("%Zd %Zd %Zd", b, e, n);
+    
+    exp_binaria(r, b, e, n);
+    
+    gmp_printf("%Zd ^ %Zd = %Zd (mod %Zd)\n", b, e, r, n);
+    
+    mpz_clear(r);
+    mpz_clear(b);
+    mpz_clear(e);
+    mpz_clear(n);
+    */
+
     return 0;
 }
